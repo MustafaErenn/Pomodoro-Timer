@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green31"
+    tools:context=".BreakActivity">
+    <TextView
+        android:id="@+id/titleBreak"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:gravity="center"
+        android:text="Break Timer"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/minuteBreak"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="65sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleBreak" />
+
+    <!--<ImageView
+        android:id="@+id/restartImageBreak"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pauseImageBreak"
+        app:srcCompat="@drawable/ic_restart" />-->
+
+    <ImageView
+        android:id="@+id/pauseImageBreak"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="invisible"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minuteBreak"
+        app:srcCompat="@drawable/ic_pausewhite" />
+
+    <ImageView
+        android:id="@+id/startButtonBreak"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minuteBreak"
+        app:srcCompat="@drawable/ic_start" />
+
+    <ImageView
+        android:id="@+id/saveButtonBreak"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        android:visibility="invisible"
+        android:onClick="savePomodoro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minuteBreak"
+        app:srcCompat="@drawable/ic_save" />
+
+    <EditText
+        android:id="@+id/shortDesc"
+        android:layout_width="330dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="Short Description"
+        android:inputType="textPersonName"
+        android:paddingLeft="16dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minuteBreak" />
+
+    <Button
+        android:id="@+id/saveToSqlite"
+        android:layout_width="174dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:text="Save"
+        android:onClick="saveToSql"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shortDesc" />
+
+    <Button
+        android:id="@+id/viewYourFinishTime"
+        android:layout_width="200dp"
+        android:layout_height="51dp"
+        android:visibility="invisible"
+        android:layout_marginTop="130dp"
+        android:text="View Your Finish Time"
+        android:onClick="viewOldFinishTimes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minuteBreak" />
+
+    <Button
+        android:id="@+id/backToMain"
+        android:layout_width="200dp"
+        android:layout_height="51dp"
+        android:visibility="invisible"
+        android:layout_marginTop="180dp"
+        android:onClick="backToMainPage"
+        android:text="Back to Main Page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minuteBreak" />
+</androidx.constraintlayout.widget.ConstraintLayout>
