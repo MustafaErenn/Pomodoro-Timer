@@ -15,6 +15,6 @@ etmenize ve bu çalışmaları kaydetmenize yarar.
 Çalışma zamanı bittikten sonra otomatik olarak mola zamanı sayfasına geçer ve kısa bir açıklama ile çalışmayı yaptıgınız saati sqlite veritabanini kullanarak kayıt tutar.
 
 ## Kayıtlarımız
-<img src="readme-images/.PNG" width="300" height="550"> 
+<img src="readme-images/9.PNG" width="300" height="550"> 
 
 Bu zamana kadar yapmış oldugunuz çalışmaları gösteren sayfa.
