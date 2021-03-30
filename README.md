@@ -1,7 +1,7 @@
 # Pomodoro-Timer
 
 Pomodoro Tekniği 25 dakikalık çalışma ve 5 dakikalık molalardan oluşan çalışma tekniğidir. Bu program sizin pomodoro tekniğindeki çalışma zamanını ve mola zamanını kontrol 
-etmenize ve bu çalışmaları kaydetmenize yarar.
+etmenize ve bu çalışmaları sqlite veritabanında tutarak kaydetmenize yarar.
 
 ## Çalışma Zamanı
 <img src="readme-images/1.PNG" width="300" height="550"> <img src="readme-images/2.PNG" width="300" height="550">
