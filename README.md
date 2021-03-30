@@ -9,4 +9,12 @@ etmenize ve bu çalışmaları kaydetmenize yarar.
 Çalışmanız zamanı başlatıp durdurabileceğiniz, resetleyebileceğiniz sayfa.
 
 ## Mola Zamanı
-<img src="readme-images/3.PNG" width="300" height="550"> <img src="readme-images/4.PNG" width="300" height="550"><img src="readme-images/5.PNG" width="300" height="550"><img src="readme-images/6.PNG" width="300" height="550"> 
+<img src="readme-images/3.PNG" width="300" height="550"> <img src="readme-images/4.PNG" width="300" height="550"><img src="readme-images/5.PNG" width="300" height="550">
+<img src="readme-images/7.PNG" width="300" height="550"> <img src="readme-images/6.PNG" width="300" height="550"> <img src="readme-images/8.PNG" width="300" height="550"> 
+
+Çalışma zamanı bittikten sonra otomatik olarak mola zamanı sayfasına geçer ve kısa bir açıklama ile çalışmayı yaptıgınız saati sqlite veritabanini kullanarak kayıt tutar.
+
+## Kayıtlarımız
+<img src="readme-images/.PNG" width="300" height="550"> 
+
+Bu zamana kadar yapmış oldugunuz çalışmaları gösteren sayfa.
